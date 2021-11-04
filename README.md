@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Alex Rosenblum
-- 👀 I’m interested in doing analytics work with data related to sociopolitical and environmental issues, personal technology, and pop culture (specifically music and gaming)
+- 👀 I’m interested in doing analytics work with data related to social, political, and environmental issues, personal technology, and pop culture (specifically music and gaming).
 - 🌱 I’m currently pursuing a Master's in Data Science at DePaul University
 - 📫 How to reach me...
   - call/text: 7087036722
