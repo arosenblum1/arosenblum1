@@ -1,0 +1,107 @@
+```{r}
+### Exploratory ###
+#setwd("~/School/DSC465 Data Visualization/Final Project")
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+
+d = read.csv('olympics.csv')
+summary(d)
+aths = aggregate(d$Games, by = list(d$Name), FUN = mean)
+aths = d[,-c(14,15)] %>% group_by(Name, Year)
+aths = pivot_wider(d, names_from = Event, id_cols = c(Name, Sex, Year, Age, Weight, Height,
+Sport, Medal))
+aths$Era = cut(aths$Year, breaks = c(seq(1896, 2016, 30)))
+levels(aths$Era) = c("1896 - 1926","1926 - 1956","1956 - 1986", "1986 - 2016")
+aths$BMI = aths$Weight / ((aths$Height / 100)^2)
+aths$Sport = as.factor(aths$Sport)
+library(ggridges)
+# How does BMI distribution change for Men and Women over the years?
+aths %>% filter(!is.na(Era)) %>%
+ggplot(aes(y = Era, x = BMI, fill = Sex)) +
+geom_density_ridges() +
+scale_y_discrete(labels = c("1896 - 1926","1926 - 1956","1956 - 1986", "1986 - 2016")) +
+theme_bw() +
+facet_wrap(~ Sex) +
+labs(title = "BMI by Sex and Era")
+# How does Age distribution change for Men and Women over the years?
+aths %>% filter(!is.na(Era)) %>%
+ggplot(aes(y = Era, x = Age, fill = Sex)) +
+geom_density_ridges() +
+scale_y_discrete(labels = c("1896 - 1926","1926 - 1956","1956 - 1986", "1986 - 2016")) +
+facet_wrap(~ Sex) +
+theme_bw() +
+labs(title = "Age by Sex and Era")
+```
+```{r}
+#setwd("~/School/DSC465 Data Visualization/Final Project")
+setwd("~/School/Data Vis Final Proj")
+#setwd("~/Resources")
+############################
+### Final Visualizations ###
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(plotly)
+library(scales)
+d = read.csv('olympics.csv')
+```
+```{r}
+#tiff("top-sports.tiff", units="in", width=10, height=7, res=900)
+### Top Sports ###
+proportion_events_summer = d %>%
+filter(Season == 'Summer') %>%
+group_by(Year, Sport) %>%
+summarize(n = n()) %>%
+mutate(freq = n / sum(n)) %>%
+mutate(rank = min_rank(desc(freq))) %>%
+arrange(Year, desc(n))
+proportion_events_summer %>%
+filter(Sport %in% c('Swimming', 'Gymnastics', 'Athletics', 'Shooting', 'Cycling')) %>%
+ggplot(aes(x = Year, y = freq, color = Sport)) +
+geom_smooth(size = 1, method = 'loess', span = 0.25, alpha = 0) +
+theme_bw() +
+labs(
+title = 'Representation of Top 5 Summer Olympic Sports Over Time',
+subtitle = 'As Determined by Proportion of Participating Athletes',
+y = 'Proportion of Participating Athletes'
+) +
+theme(
+panel.background = element_rect(fill = '#A0A0A0'),
+legend.key = element_rect(fill = '#B0B0B0'),
+panel.grid.minor = element_blank(),
+panel.grid.major = element_line(color = '#BBBBBB')) +
+scale_color_manual(values = c('blue', 'yellow', 'darkgreen', 'black', 'red'),
+breaks = c('Swimming', 'Gymnastics', 'Athletics', 'Shooting', 'Cycling'))
++
+scale_y_continuous(
+labels = label_percent(),
+limits = c(0, 0.3))
+#dev.off()
+```
+```{r}
+### Athlete’s Ages ###
+aths_ages = d %>%
+mutate(Year.Factor = as.factor(Year)) %>%
+group_by(Year, Year.Factor, Age) %>%
+summarize(n = n()) %>%
+mutate(freq = as.numeric(format(n / sum(n), scientific = FALSE, digits = 2))) %>%
+filter(Age <= 70)
+#tiff("age_over_time.tiff", units="in", width=10, height=7, res=1200)
+aths_ages %>%
+ggplot(aes(x = Year, y = Age, fill = freq)) +
+geom_tile() +
+geom_smooth(color = 'red', method = 'loess') +
+scale_fill_viridis_c(labels = label_percent()) +
+scale_x_binned(breaks = seq(1896, 2020, 4)) +
+theme_bw() +
+theme(
+axis.text.x = element_text(angle = 90, vjust = 0)
+) +
+labs(
+title = "Relative Frequency of Athletes' Ages Over Time",
+subtitle = 'With Moving Average Overlaid',
+fill = "Percentage"
+)
+#dev.off()
+```
