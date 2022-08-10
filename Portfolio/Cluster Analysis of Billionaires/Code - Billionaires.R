@@ -1,4 +1,10 @@
-install.packages("qcc")
+#install.packages("moments")
+#install.packages("clustertend")
+#install.packages("NbClust")
+#install.packages("factoextra")
+#install.packages("fpc")
+#install.packages("dbscan")
+#install.packages("qcc")
 
 library(ggplot2)
 library(tidyverse)
