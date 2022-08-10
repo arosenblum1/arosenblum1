@@ -1,5 +1,5 @@
 # Test link
-[Billionaires](https://github.com/arosenblum1/arosenblum1/blob/b201acdd9f9516103dc37ecd87d76aeb776486fc/Portfolio/Cluster%20Analysis%20of%20Billionaires/Report%20-%20Billionaires.pdf)
+[Billionaires](https://arosenblum1.github.io/arosenblum1/Portfolio/Cluster%20Analysis%20of%20Billionaires/Report%20-%20Billionaires.pdf)
 
 ## Welcome to GitHub Pages
 
