@@ -1,5 +1,5 @@
 ---
-theme: jekyll-theme-tactile
+theme: tactile
 ---
 
 # My Projects
