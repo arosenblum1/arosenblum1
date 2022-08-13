@@ -1,5 +1,7 @@
-# Test link
-[Billionaires](https://arosenblum1.github.io/arosenblum1/billionaires/)
+# My Projects
+[Cluster Analysis of Billionaires](https://arosenblum1.github.io/arosenblum1/billionaires/)
+
+[Performing NLP on Fox News Newsletters](https://arosenblum1.github.io/arosenblum1/foxnews/)
 
 ## Welcome to GitHub Pages
 
