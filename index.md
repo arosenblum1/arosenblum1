@@ -1,7 +1,3 @@
----
-theme: tactile
----
-
 # My Projects
 [Cluster Analysis of Billionaires](https://arosenblum1.github.io/arosenblum1/billionaires/)
 
