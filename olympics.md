@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Visualizing Trends in the Olympic Games Over Time"
-permalink: /olympics/
+permalink: /olympics
 ---
 
 ### Visualizing Trends in the Olympic Games Over Time
