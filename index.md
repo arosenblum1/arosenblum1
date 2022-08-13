@@ -5,3 +5,4 @@
 
 [Regression Analysis of Chicago's Air Quality During the COVID-19 Pandemic](https://arosenblum1.github.io/arosenblum1/airquality/)
 
+[Visualizing Trends in the Olympic Games Over Time](https://arosenblum1.github.io/arosenblum1/olympics/)
