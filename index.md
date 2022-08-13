@@ -1,5 +1,5 @@
 # Test link
-[Billionaires](https://arosenblum1.github.io/arosenblum1/billionaires.md)
+[Billionaires](https://arosenblum1.github.io/arosenblum1/billionaires/)
 
 ## Welcome to GitHub Pages
 
