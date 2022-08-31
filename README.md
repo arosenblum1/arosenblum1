@@ -5,7 +5,10 @@
   - call/text: 7087036722
   - email: arosenblum1@gmail.com
 
-<!---
-arosenblum1/arosenblum1 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+
+## My Projects
+[Cluster Analysis of Billionaires](https://arosenblum1.github.io/arosenblum1/billionaires/)
+
+[Performing NLP on Fox News Newsletters](https://arosenblum1.github.io/arosenblum1/foxnews/)
+
+[Regression Analysis of Chicago's Air Quality During the COVID-19 Pandemic](https://arosenblum1.github.io/arosenblum1/airquality/)
