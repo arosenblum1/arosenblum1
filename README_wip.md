@@ -1,6 +1,7 @@
-# Alex Rosenblum
+## Personal Info
+Email: arosenblum1@gmail.com
 
-## My Projects
+## Projects
 
 ### Cluster Analysis of Billionaires
 [Technical Report](https://arosenblum1.github.io/arosenblum1/Portfolio/Cluster%20Analysis%20of%20Billionaires/Report%20-%20Billionaires.pdf)
