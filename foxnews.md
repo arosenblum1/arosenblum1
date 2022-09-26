@@ -4,8 +4,8 @@
 
 [[Full Technical Report](https://arosenblum1.github.io/arosenblum1/Portfolio/Performing%20NLP%20on%20Fox%20News%20Newsletters/Report%20-%20Fox%20News.pdf)]
 
-## Summary of My Contribution
-#### Opportunity
+## Summary (My Contribution)
+#### Context
 In recent years, the messaging put forth by FOX News has come under quite a bit of scrutiny for its divisive
 rhetoric and apparent disdain for mainstream science. The COVID-19 pandemic seemed to exacerbate
 these factors, with much of their primetime programming being spent discrediting government health
