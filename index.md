@@ -1,5 +1,5 @@
 # My Projects
-[Cluster Analysis of Billionaires](https://arosenblum1.github.io/arosenblum1/billionaires/)
+[Cluster Analysis of Billionaires](https://github.com/arosenblum1/arosenblum1/blob/gh-pages/billionaires.md)
 
 [Performing NLP on Fox News Newsletters](https://arosenblum1.github.io/arosenblum1/foxnews/)
 
