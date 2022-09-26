@@ -4,7 +4,7 @@ Email: arosenblum1@gmail.com
 ## Projects
 
 # My Projects
-[Cluster Analysis of Billionaires](https://github.com/arosenblum1/arosenblum1/blob/gh-pages/billionaires.md)
+[Cluster Analysis of Billionaires](https://github.com/arosenblum1/arosenblum1/blob/main/Projects/Billionaires.md)
 
 [Performing NLP on Fox News Newsletters](https://github.com/arosenblum1/arosenblum1/blob/gh-pages/foxnews.md)
 
