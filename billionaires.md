@@ -1,8 +1,3 @@
----
-layout: page
-title: "Cluster Analysis of Billionaires"
-permalink: /billionaires/
----
 ### Cluster Analysis of Billionaires
 
 The code for this project was written in R, utlizing ggplot2 and dplyr from the tidyverse stack for data exploration and manipulation. Clustering was performed using the NBClust and dbscan packages.
