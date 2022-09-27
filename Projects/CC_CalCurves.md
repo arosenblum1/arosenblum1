@@ -1,4 +1,4 @@
-# Exploring Calibration Curve Stability for a Photometric Clinical Chemistry Assay
+# Visualizing Calibration Curves for a Photometric Clinical Chemistry Assay
 *The following visualizations were created in **python** with **matplotlib**. Spline curves were 
 calculated using the **scipy.interpolate** submodule along with **NumPy** for convenience.*
 
