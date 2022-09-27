@@ -15,7 +15,11 @@ response ("absorbance") with a range of sample analyte concentrations.
 Because absorbance often scales non-linearly with assay concentration, many assays utilize a cubic 
 spline curve calculation to maintain accuracy across a wide range of analyte concentrations. However,
 the mathematics behind splines are complex and can sometimes react unpredictably to small changes in
-input values. Because of this, a high level of care must be taken when selecting the analyte concentration
-for each cal level.
+input values. Because of this, a high degree of care must be taken when selecting the analyte concentration
+for each cal level. 
+
+To complicate matters further, the existing company-standard software tools used 
+for our splines are either access-restricted to 
+too dense and user-unfriendly to be effectively used by my team.
 
 
