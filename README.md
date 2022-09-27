@@ -1,9 +1,7 @@
-## Personal Info
+# Personal Info
 Email: arosenblum1@gmail.com
 
-## Projects
-
-# My Projects
+# Projects
 [Cluster Analysis of Billionaires](https://github.com/arosenblum1/arosenblum1/blob/main/Projects/Billionaires.md)
 
 [Performing NLP on Fox News Newsletters](https://github.com/arosenblum1/arosenblum1/blob/main/Projects/FoxNews.md)
