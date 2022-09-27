@@ -52,6 +52,6 @@ obvious to the eye. A common example is predicting how many drops of water a can
 the answer is much higher than expected due to the unseen interactions of surface tension.
 The purpose of these proposed demonstrations is to illustrate that science is a process, and medical advice
 should always be based on the findings of those who go through the process of science rather than
-“common sense”. Ideally, these demonstrations should be done live, in-person, at a public venue (parks,
+“common sense”, which can often be fallible. Ideally, these demonstrations should be done live, in-person, at a public venue (parks,
 rec centers, street fests, etc.) and led by a charismatic individual who is either a member of the local
 community or is at least seen to conform to local culture.
