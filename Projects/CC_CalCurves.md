@@ -1,5 +1,5 @@
 # Visualizing Calibration Curves for a Photometric Clinical Chemistry Assay
-*The following visualizations were created in **python** with **matplotlib**. Spline curves were 
+*The following visualizations were created with **matplotlib** in **python**. Spline curves were 
 calculated using the **scipy.interpolate** submodule along with **NumPy** for convenience.*
 
 *Concentration values have been scaled by a random constant to maintain project confidentiality.*
