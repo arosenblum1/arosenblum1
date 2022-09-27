@@ -25,4 +25,5 @@ Using SciPy's handy interpolate module, which includes functions for generating 
 I've built several visualizations and tools to explore options for improving cal curve performance for 
 a particular problem assay to inform next-step decision-making in the design process.
 
-
+![Absorbance](https://github.com/arosenblum1/arosenblum1/blob/gh-pages/Portfolio/CalCurves/abs.png?raw=true)
+![Concentration](https://github.com/arosenblum1/arosenblum1/blob/gh-pages/Portfolio/CalCurves/conc.png?raw=true)
