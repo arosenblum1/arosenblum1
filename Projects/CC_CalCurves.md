@@ -16,10 +16,13 @@ Because absorbance often scales non-linearly with assay concentration, many assa
 spline curve calculation to maintain accuracy across a wide range of analyte concentrations. However,
 the mathematics behind splines are complex and can sometimes react unpredictably to small changes in
 input values. Because of this, a high degree of care must be taken when selecting the analyte concentration
-for each cal level. 
+for each cal level. To complicate matters further, the existing software tools used for our splines are too dense and 
+user-unfriendly to be effectively used by my team, forcing us to go through the laborious and 
+resource-intensive process of making an experimental cal series and collecting a real curve whenever
+we want to test a change to the curve's design. 
 
-To complicate matters further, the existing company-standard software tools used 
-for our splines are either access-restricted to 
-too dense and user-unfriendly to be effectively used by my team.
+Using SciPy's handy interpolate module, which includes functions for generating and evaluating spline curves,
+I've built several visualizations and tools to explore options for improving cal curve performance for 
+a particular problem assay to inform next-step decision-making in the design process.
 
 
