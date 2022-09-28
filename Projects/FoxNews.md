@@ -39,9 +39,10 @@ understandable – with everyone trying to stay safe from COVID, a higher amount
 health advice makes sense. However, when coupled with the decrease in Science, this change indicates
 that the content labeled Personal Health contains health advice not based in scientific findings. While there
 are a select few documents in either era were identified as having moderately high scores in both Science
-and Personal Health (identified in the plot above as “Joint Coverage”), the division between these two
+and Personal Health (identified in the plot below as “Joint Coverage”), the division between these two
 subjects is stark. At a time when science literacy is critically important, this trend has the potential to be
 quite problematic.
+![LDA Plot](https://github.com/arosenblum1/arosenblum1/blob/gh-pages/Portfolio/Performing%20NLP%20on%20Fox%20News%20Newsletters/Annotated%20Vis%20-%20Science%20vs.%20Personal%20Health.png?raw=true)
 #### Recommendations
 To account for this lack of science-informed health advice, trust in science must be regained where
 possible. A campaign of public education into what “Science” actually means (it’s a process, not just a
