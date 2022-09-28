@@ -1,8 +1,12 @@
 # Alex Rosenblum
 *Hello, and thank you for taking an interest in my work! I am a Data Scientist with a background in chemistry, and 6 years of corporate experience. My interests are primarily in environmental and social issues, but I am an eager learner (call me Naive Bayes!) and love to work with interesting data of any subject, if it means learning something new. Below you can find some personal details as well as links to a few examples of my work so far. I am always looking for my next opportunity, so feel free to get in touch!*
 
-## Personal Info
-email: arosenblum1@gmail.com
+## More Info
+
+
+arosenblum1@gmail.com  
+[LinkedIn](www.linkedin.com/in/alexanderrosenblum)
+
 
 ## Projects
 #### Real-World Application
