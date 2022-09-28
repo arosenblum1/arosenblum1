@@ -7,11 +7,13 @@ incarnation in 1896, where every row is an athlete's participation in a single e
 
 ## Proportional Participation by Sport over Time
 ![sports-over-time](https://github.com/arosenblum1/arosenblum1/blob/gh-pages/Portfolio/Visualizing%20Trends%20in%20the%20Olympic%20Games%20Over%20Time/sports-over-time.PNG?raw=true)
+### Description
 This visualization is a line graph representing the number of unique participants in each sport over time
 as a proportion of the total participants in the Olympics that year. Data is limited to the 5 sports with the
 highest participation across all 120 years of data, where each sport is a different color. It was made using
 ggplot2 in R, with smoothing applied via loess regression.
 
+### Insights
 There are a few noteworthy insights to be drawn from this visualization that tell a compelling
 story. The rise and fall of Gymnastics is the most obvious and dramatic of these, peaking in the mid-20th
 century with participation above 20% of the entire Games and then dropping steadily until the 2016
@@ -32,6 +34,7 @@ see today. (Source: https://olympics.com/en/news/the-history-of-olympic-swimming
 
 ## Proportional Participation by Age over Time
 ![age-over-time](https://github.com/arosenblum1/arosenblum1/blob/gh-pages/Portfolio/Visualizing%20Trends%20in%20the%20Olympic%20Games%20Over%20Time/age-over-time.PNG?raw=true)
+### Description
 This visualization is a heatmap of athlete’s ages over time, with a moving average calculated with loess
 regression overlaid. Color is mapped to the proportion of each age represented in a given year. It was
 made with ggplot2 in R. Originally, this visualization had Age tracked by Sport instead of Year. However,
@@ -41,6 +44,7 @@ Additionally, there are several athletes over the age of 70 which had to be excl
 better read the interesting part of the visualization. Finally, because color is mapped to a numerical
 variable, the viridis color palette was chosen for its readability.
 
+### Insights
 The visualization shows that the highest proportion of athletes have been in their early-to-mid 20’s
 throughout modern olympic history, with the distribution tightening over time until about the 1980’s when it
 began to widen out again. Average age rose steadily from the 1896 Games, hit its high of about age 39
