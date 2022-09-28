@@ -5,7 +5,8 @@
 
 
 arosenblum1@gmail.com  
-[LinkedIn](www.linkedin.com/in/alexanderrosenblum)
+[LinkedIn](www.linkedin.com/in/alexanderrosenblum)  
+Chicago, IL
 
 
 ## Projects
