@@ -42,9 +42,3 @@ These graphs show that depressed absorbance values at cal levels 4 and 6 as well
 variations that could possibly lead to a negative slope at the very top of the calibration curve. This indicates that cal level 5, the center of the
 curve's problem region, has a sizeable impact on the upper curve's shape. More specifically, the *ratio of cal levels 4, 5, and 6*
 is critically important and must be as close to linear as possible to avoid a negative slope.
-
-### Using Spline Curve 1st Derivatives to Identify Differences in Material Production Lots
-*This completed visualization is still undergoing confidentiality review by my project team - stay tuned!*
-
-### Designing and Implementing an Interactive Tool for Exploring Hypothetical Curves
-*Tool still under construction...*
