@@ -1,4 +1,4 @@
-# IoT Analysis for a Hydroponic Vertical Farm
+# IoT Analysis for an Automated Hydroponic Vertical Farm
 A friend of mine has been developing a fully automated hydroponic vertical farm prototype in his Gold Coast apartment, 
 with the intention to set up an operational system in the basement of his family home in the north suburbs of Chicago, 
 where he will grow microgreens for sale locally. As part of this project, he has asked for my help doing two things:
