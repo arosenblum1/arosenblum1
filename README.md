@@ -9,6 +9,8 @@ Chicago, IL
 
 ## Projects
 #### Real-World Application
+[IoT Analysis for a Hydroponic Vertical Farm](https://github.com/arosenblum1/arosenblum1/tree/main/Projects/Rosies_Farm)
+
 [Visualizing Calibration Curves for a Photometric Clinical Chemistry Assay](https://github.com/arosenblum1/arosenblum1/blob/main/Projects/CC_CalCurves.md)
 
 #### Academic Work
