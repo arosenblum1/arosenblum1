@@ -17,6 +17,6 @@ adding new as the project progresses.
 
 Time-Series Forecasting - *In Progress, stay tuned!*
 
-Automating Dosage of Nutrient Mix and other Solutions - *Planned*
+Automating Dosage of Nutrient Mix and Other Additives - *Planned*
 
 Image Analysis for Determining Crop Health - *Planned*
