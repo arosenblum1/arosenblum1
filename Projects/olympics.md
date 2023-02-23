@@ -30,7 +30,7 @@ The only one of these changes that was well explained when researched was Swimmi
 which several technological advances took place including indoor pools and more dynamic material for
 swimwear. These changes led to a higher standard of competition and subsequently increased public
 interest in the sport as records were broken repeatedly, leading to the culture of superstar swimmers we
-see today. (Source: https://olympics.com/en/news/the-history-of-olympic-swimming)
+see today. ([Source](https://olympics.com/en/news/the-history-of-olympic-swimming))
 
 ## Proportional Participation by Age over Time
 ![age-over-time](https://github.com/arosenblum1/arosenblum1/blob/gh-pages/Portfolio/Visualizing%20Trends%20in%20the%20Olympic%20Games%20Over%20Time/age-over-time.PNG?raw=true)
