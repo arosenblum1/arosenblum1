@@ -6,7 +6,7 @@ where he will grow microgreens for sale locally. As part of this project, he has
 1. Modeling the interactions between the different components of the system to facilitate optimal crop yield, and
 2. Developing a dashboard to remotely monitor and control the system.  
 
-In this ongoing series, I will detail my contribution to this project in both areas. I will be 
+In this ongoing series, I will detail my contributions to this project in both areas. I will be 
 adding new as the project progresses.
 
 ## Notebooks
