@@ -3,7 +3,7 @@
 
 [**My Resume**](https://github.com/arosenblum1/arosenblum1/blob/main/Resume%20-%20Alex%20Rosenblum.pdf)  
 arosenblum1@gmail.com  
-[LinkedIn](www.linkedin.com/in/alexanderrosenblum)  
+[LinkedIn](https://www.linkedin.com/in/alexanderrosenblum/)  
 Chicago, IL
 
 
