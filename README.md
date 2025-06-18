@@ -11,6 +11,8 @@ Chicago, IL
 #### Real-World Application
 [Convention Attendee Segmentation](Projects/ConventionAttendeeSegmentation.md)
 
+[Exploration of Global Grant Participation](Projects/GlobalGrantsExploration.md)
+
 [Membership Termination Prediction Model](Projects/TerminationPrediction.md)
 
 [IoT Analysis for a Hydroponic Vertical Farm](Projects/EarthlyGardens/DosingExperiment_notebook.ipynb)
