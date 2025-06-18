@@ -9,6 +9,10 @@ Chicago, IL
 
 ## Projects
 #### Real-World Application
+[Convention Attendee Segmentation](Projects/ConventionAttendeeSegmentation.md)
+
+[Membership Termination Prediction Model](Projects/TerminationPrediction.md)
+
 [IoT Analysis for a Hydroponic Vertical Farm](Projects/EarthlyGardens/DosingExperiment_notebook.ipynb)
 
 [Visualizing Calibration Curves for a Photometric Clinical Chemistry Assay](https://github.com/arosenblum1/arosenblum1/blob/main/Projects/CC_CalCurves.md)
